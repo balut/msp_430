@@ -211,7 +211,7 @@ void measure4() {
 void measure5() {
     delay(200);
     beep(NOTE_G4, 1);
-    beep(NOTE_F4, 1);
+    beep(NOTE_FS4, 1);
     beep(NOTE_F4,1);
     beep(NOTE_DS4, 1);
     delay(100);
@@ -226,7 +226,8 @@ void measure5() {
 void measure6() {
     delay(200);
     //eb4?
-    beep(NOTE_E4, 1);
+    //beep(NOTE_E4, 1);
+    beep(NOTE_DS4, 1);
     delay(200);
     beep(NOTE_D4, 1);
     delay(200);
